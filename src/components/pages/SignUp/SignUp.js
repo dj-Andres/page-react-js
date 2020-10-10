@@ -1,20 +1,17 @@
 import React from 'react';
 import HeroSection from '../../HeroSection';
+import {homeObjOne,homeObjThree} from './Data';
 import Percing from '../../Percing';
-import {homeObjOne,homeObjTwo,homeObjThree,homeObjFour} from './Data';
 
-function Home() {
+function SignUp() {
     return (
         <>
          <HeroSection {...homeObjOne} />
          <HeroSection {...homeObjThree} />
-         <HeroSection {...homeObjTwo} />
-         <Percing />
-         <HeroSection {...homeObjFour} />
         </>
     )
 }
 
-export default Home
+export default SignUp
 
 
